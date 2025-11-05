@@ -1,0 +1,46 @@
+# examples/fun_scan.ctt+
+# Fun scan demo for CTT+
+# Author: Kenzo (CoDev Studios)
+# Description: Simulated antivirus scan (safe / visual only)
+
+printy("🧠 CTT+ — Fun Scan Demo v1.0")
+waity(0.8)
+
+printy("Initializing engine...")
+waity(0.6)
+notify("CTT+ Scanner", "Engine initialized")
+
+printy("Loading signature database...")
+waity(0.5)
+
+printy("Starting quick system scan (simulated)...")
+waity(1)
+
+# scan some common folders (adjust to your OS, e.g., "C:/Users" or "/home/kenzo")
+scan_path("C:/Windows")
+waity(0.8)
+
+printy("Scanning user data...")
+waity(0.8)
+scan_path("C:/Users")
+waity(0.6)
+
+# Simulate finding something (the interpreter will actually report real matches if a signature exists)
+notify("CTT+ Alert", "1 potential threat found!")
+waity(0.6)
+
+sayy("CTT+", "Warning — suspicious file detected in Downloads.")
+waity(0.7)
+
+printy("Attempting safe quarantine (simulated)...")
+waity(0.7)
+printy("🔒 Files moved to quarantine (simulation).")
+waity(0.5)
+
+printy("Running heuristic re-check...")
+waity(1)
+printy("✅ Heuristic re-check complete — no active threats.")
+
+notify("CTT+ Scan", "Scan finished. This is a simulation only.")
+sayy("CTT+", "Scan complete. System appears safe.")
+printy("✨ CTT+ Fun Scan completed. Thanks for testing!")
