@@ -1,0 +1,6 @@
+{
+  "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855": "empty-file-sample",
+  "b6375f6b6be251707dbaaf0861f4e6d2c6cd7837f874e8220d68c942f7b88d0f": "fake-trojan-sample",
+  "db2185305f5fbe36a6b969726aa2233791745f3cde264bf71ef992eefcb04893": "fake-malware-sample",
+  "9dd5ece884499a8fd0f97f3f4e72c1d97397be7f7dea9751b928e8ab3987d158": "benign-sample"
+}
