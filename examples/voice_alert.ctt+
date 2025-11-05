@@ -1,0 +1,35 @@
+# examples/voice_alert.ctt+
+# Voice alert demo for CTT+
+# Author: Kenzo (CoDev Studios)
+# Description: Demonstrates how CTT+ can speak alerts and show notifications
+
+printy("🔊 CTT+ Voice Alert Demo v1.0")
+waity(0.5)
+
+printy("Initializing voice system...")
+waity(0.7)
+notify("CTT+ Voice", "Voice system initialized")
+
+sayy("CTT+", "Hello user! This is a voice alert test.")
+waity(1)
+
+printy("Preparing security status message...")
+waity(0.6)
+sayy("CTT+", "Your system is clean and no threats detected.")
+
+notify("CTT+ Security", "No threats detected — system is secure.")
+waity(0.8)
+
+printy("Simulating warning tone...")
+waity(0.5)
+sayy("CTT+", "Warning. Unknown device connected.")
+waity(0.8)
+notify("CTT+ Alert", "Unknown USB device detected!")
+
+printy("🛡️ Running quick diagnostic...")
+waity(0.7)
+printy("✅ No malicious activity found.")
+waity(0.5)
+
+sayy("CTT+", "Diagnostic complete. Everything is safe.")
+printy("✨ Voice Alert demo complete. Thank you for testing!")
