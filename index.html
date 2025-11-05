@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="CTT+ is a custom mini programming language created by Kenzo (CoDev Studios). Designed for fun and educational purposes — simulating a simple antivirus system that can detect threats, show notifications, and speak alerts.">
+  <meta name="keywords" content="CTT+, programming language, CoDev Studios, Kenzo, antivirus simulation, Python compiler, educational language">
+  <meta name="author" content="Kenzo (CoDev Studios)">
+  <title>CTT+ Programming Language | CoDev Studios</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #0d1117;
+      color: #e6edf3;
+      margin: 0;
+      padding: 20px;
+    }
+    h1, h2 {
+      color: #58a6ff;
+    }
+    pre {
+      background: #161b22;
+      padding: 10px;
+      border-radius: 6px;
+      overflow-x: auto;
+    }
+    a {
+      color: #58a6ff;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    .footer {
+      margin-top: 40px;
+      font-size: 0.9em;
+      color: #8b949e;
+    }
+  </style>
+</head>
+<body>
+  <h1>🌐 CTT+ Programming Language</h1>
+  <p><strong>CTT+</strong> is a custom mini programming language created by <strong>Kenzo (CoDev Studios)</strong>.<br>
+  It’s designed for fun and educational purposes — simulating a simple antivirus system that can detect threats, show notifications, and speak alerts.</p>
+
+  <h2>⚙️ Features</h2>
+  <ul>
+    <li>🧠 Custom syntax (.ctt+ files)</li>
+    <li>🔔 System notifications</li>
+    <li>🗣️ Voice alerts using system TTS</li>
+    <li>🧩 Script compiler (<code>compile_ctt.py</code>)</li>
+    <li>💾 Example programs in <code>/examples</code></li>
+  </ul>
+
+  <h2>📁 Folder Structure</h2>
+  <pre>
+CTTPlus/
+ ├─ cttplus.py              # Core functions of CTT+
+ ├─ compile_ctt.py          # Script compiler/runner
+ ├─ README.md               # Documentation
+ └─ examples/
+     ├─ fun_scan.ctt+       # Basic virus scan simulation
+     └─ voice_alert.ctt+    # Voice alert demonstration
+  </pre>
+
+  <h2>🧰 Functions</h2>
+  <table border="1" cellpadding="8" cellspacing="0">
+    <tr><th>Function</th><th>Description</th></tr>
+    <tr><td>printy(text)</td><td>Prints a message to the console</td></tr>
+    <tr><td>waity(seconds)</td><td>Waits for a specified time</td></tr>
+    <tr><td>notify(title, message)</td><td>Shows a notification on screen</td></tr>
+    <tr><td>sayy(voice, message)</td><td>Speaks the message using system voice</td></tr>
+    <tr><td>scan_system()</td><td>Simulates virus scanning process</td></tr>
+  </table>
+
+  <h2>🚀 Usage</h2>
+  <pre>python compile_ctt.py examples/fun_scan.ctt+</pre>
+
+  <h2>💡 About</h2>
+  <p>CTT+ is made for fun & experimentation — not a real antivirus engine.<br>
+  Created by Kenzo / CoDev Studios for learning, creativity, and entertainment.</p>
+
+  <div class="footer">
+    ⭐ Created with ❤️ by Kenzo (CoDev Studios)<br>
+    <a href="https://github.com/KenzoSSto1/CTTPlus" target="_blank">View on GitHub</a>
+  </div>
+</body>
+</html>
